@@ -190,4 +190,19 @@ footer {
 
 .episode a {
     text-decoration: none;
+    }.enter-button {
+    display: inline-block;
+    background-color: #b86cff;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #8d3ee8;
+    transform: scale(1.05);
     }
