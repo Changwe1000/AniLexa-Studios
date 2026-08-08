@@ -254,7 +254,12 @@ footer {
     text-align: left;
 }
 
-.story-image {
+..story-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
     height: 220px;
     background: linear-gradient(135deg, #211044, #0b0b18);
     display: flex;
