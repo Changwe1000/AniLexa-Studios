@@ -415,4 +415,82 @@ font-size: 14px;
     grid-template-columns: 1fr;
 }
 
-        }
+        }.episode-hero {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(135deg, #241044, #0b0b18);
+}
+
+.episode-hero h2 {
+color: white;
+font-size: 42px;
+margin: 10px auto;
+max-width: 800px;
+}
+
+.episode-number {
+color: #aaa;
+font-size: 18px;
+}
+
+.watch-section,
+.episode-story,
+.episode-info-box,
+.next-episode {
+max-width: 900px;
+margin: auto;
+text-align: center;
+}
+
+.video-box {
+width: 100%;
+margin: 25px auto;
+background: #000;
+border-radius: 12px;
+overflow: hidden;
+}
+
+.video-box video {
+display: block;
+width: 100%;
+}
+
+.episode-story p {
+color: #bbb;
+line-height: 1.7;
+font-size: 17px;
+}
+
+.episode-info-box {
+background: #15152a;
+border: 1px solid #302f55;
+border-radius: 12px;
+padding: 25px;
+margin-top: 30px;
+}
+
+.episode-info-box p {
+color: #bbb;
+}
+
+.next-episode {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.next-episode h3 {
+color: white;
+font-size: 24px;
+}
+
+@media (max-width: 600px) {
+
+.episode-hero h2 {
+    font-size: 30px;
+}
+
+.episode-hero {
+    padding: 55px 15px;
+}
+
+}
