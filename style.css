@@ -207,4 +207,40 @@ footer {
     background-color: #8d3ee8;
     color: #ffffff !important;
     transform: scale(1.05);
+}.hero {
+    min-height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background:
+        radial-gradient(circle at top, #302060, #0b0b18 65%);
 }
+
+.hero-content {
+    max-width: 750px;
+    padding: 40px 20px;
+}
+
+.hero-label {
+    color: #b86cff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 52px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-content > p:not(.hero-label) {
+    color: #ccc;
+    font-size: 19px;
+    margin-bottom: 30px;
+    }
