@@ -253,9 +253,19 @@ footer {
     overflow: hidden;
     text-align: left;
 }
+..story-image {
+    height: 220px;
+    background: linear-gradient(135deg, #241044, #0b0b18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .story-image img {
-    width: 100%;
+    width: auto;
     height: 100%;
+    max-width: 100%;
     object-fit: contain;
     display: block;
 }
